@@ -1,7 +1,7 @@
 import { Container } from './styles';
 
 interface LogoProps {
-  onClick: () => void
+  onClick?: () => void
 }
 
 export function Logo({onClick} : LogoProps){
