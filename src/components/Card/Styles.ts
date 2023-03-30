@@ -46,6 +46,12 @@ export const Container = styled.div<ContainerProps>`
   }
 
   @media screen and (max-width: 430px){
+    .content{
+      h3{
+        font-size: 14px;
+      }
+    }
+
     width: ${({type}) => type === 'catalog' ? '12rem' : '11rem'};
     height: ${({type}) => type === 'catalog' ? '300px' : '290px'};
   }
@@ -55,24 +61,25 @@ export const Container = styled.div<ContainerProps>`
     height: ${({type}) => type === 'catalog' ? '280px' : '260px'};
   }
 
+  @media screen and (max-width: 360px){
+    width: ${({type}) => type === 'section' && '8.8rem'};
+    height: ${({type}) => type === 'section' && '240px'};
+  }
+
+  @media screen and (max-width: 345px){
+    .content{
+      h3{
+        font-size: 12px;
+      }
+    }
+
+    width: ${({type}) => type === 'section' && '8.2rem'};
+    height: ${({type}) => type === 'section' && '230px'};
+  }
+
   @media screen and (max-width: 320px){
     width: ${({type}) => type === 'catalog' ? '8.8rem' : '7.6rem'};
     height: ${({type}) => type === 'catalog' ? '220px': '190px'};
-  }
-
-  @media screen and (max-width: 310px){
-    width: ${({type}) => type === 'section' && '6.8rem'};
-    height: ${({type}) => type === 'section' && '170px'};
-  }
-
-  @media screen and (max-width: 285px){
-    width: ${({type}) => type === 'section' && '6.4rem'};
-    height: ${({type}) => type === 'section' && '170px'};
-  }
-
-  @media screen and (max-width: 270px){
-    width: ${({type}) => type === 'section' && '6rem'};
-    height: ${({type}) => type === 'section' && '170px'};
   }
 `;
 
