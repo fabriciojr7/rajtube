@@ -55,10 +55,16 @@ export const Container = styled.div<ContainerProps>`
     height: ${({type}) => type === 'catalog' ? '280px' : '260px'};
   }
 
-  @media screen and (max-width: 320px){
+  @media screen and (min-width: 301px) and (max-width: 320px){
     width: ${({type}) => type === 'catalog' ? '8.8rem' : '7.6rem'};
     height: ${({type}) => type === 'catalog' ? '220px': '190px'};
   }
+
+  @media screen and (max-width: 300px){
+    width: ${({type}) => type === 'section' && '7rem'};
+    height: ${({type}) => type === 'section' && '180px'};
+  }
+
 `;
 
 export const ContainerImage = styled.div`
