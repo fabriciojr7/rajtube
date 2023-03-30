@@ -51,9 +51,10 @@ export const Container = styled.header<MenuProps>`
       top: 62px;
       left: 0;
       right: 0;
-      z-index: 10;
+      z-index: 100;
 
       background: ${({theme}) => theme.colors.headerFooter};
+      border-bottom: 2px solid ${({theme}) => theme.colors.red.main};
     }
   }
 `;
