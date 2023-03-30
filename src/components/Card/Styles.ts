@@ -60,9 +60,9 @@ export const Container = styled.div<ContainerProps>`
     height: ${({type}) => type === 'catalog' ? '220px': '190px'};
   }
 
-  @media screen and (max-width: 300px){
-    width: ${({type}) => type === 'section' && '7rem'};
-    height: ${({type}) => type === 'section' && '180px'};
+  @media screen and (max-width: 280px){
+    width: ${({type}) => type === 'section' && '6.2rem'};
+    height: ${({type}) => type === 'section' && '170px'};
   }
 
 `;
