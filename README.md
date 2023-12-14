@@ -6,6 +6,15 @@ https://rajtube.vercel.app/
 
 RajTube é uma aplicação simples para listagem de filmes, onde é possivel separar por algumas categorias na home, e tambem tem as paginas apenas com filmes ou series, e uma pagina de busca, alem de trazer os detalhes de cada filme/serie.
 
+## Layout web
+![rt1](https://github.com/fabriciojr7/rajtube/assets/54858776/e0ac8487-093e-47fe-bedd-97bbe3e93181)
+
+![rt2](https://github.com/fabriciojr7/rajtube/assets/54858776/46b17c62-e489-452f-a77e-22feb7d43730)
+
+![rt3](https://github.com/fabriciojr7/rajtube/assets/54858776/5d80240b-594d-426e-a01c-f70298cda6ac)
+
+![rt4](https://github.com/fabriciojr7/rajtube/assets/54858776/eb00945c-207d-4ae9-8799-22408e79d020)
+
 # Tecnologias utilizadas
 
 ## Front end
